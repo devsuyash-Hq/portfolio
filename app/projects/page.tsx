@@ -2,15 +2,16 @@ import Card from "../component/Card";
 
 const projects = [
   {
+    title: "testcontainers-java — MongoDBContainer fix",
+    description:
+      "Fixed a race condition in the wait strategy for MongoDBContainer when init scripts are used, using a log-message-based wait strategy plus a regression test.",
+    tags: ["Java", "Open Source", "Testcontainers"],
+    link: "https://github.com/testcontainers/testcontainers-java/pull/11965",
+  },
+  {
     title: "AI Interview Assistant",
     description: "An AI-powered tool to practice interviews with feedback.",
     tags: ["Python", "Gemini API"],
-    link: "https://github.com/devsuyash-Hq",
-  },
-  {
-    title: "Pattern Atlas",
-    description: "A tracker built to support DSA practice.",
-    tags: ["Java", "DSA"],
     link: "https://github.com/devsuyash-Hq",
   },
 ];
