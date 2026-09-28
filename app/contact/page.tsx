@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export default function ContactPage() {
   return (
@@ -13,22 +13,18 @@ export default function ContactPage() {
         </p>
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center">
-
           <Link href="mailto:you@example.com" className="flex items-center justify-center gap-2 rounded-xl bg-indigo-500 px-6 py-3 font-medium transition hover:bg-indigo-400">
             <Mail className="h-4 w-4" />
             <span>Email me</span>
           </Link>
 
           <Link href="https://github.com/devsuyash-Hq" className="flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-6 py-3 font-medium transition hover:bg-white/10">
-            <Github className="h-4 w-4" />
             <span>GitHub</span>
           </Link>
 
           <Link href="https://linkedin.com/in/your-profile" className="flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-6 py-3 font-medium transition hover:bg-white/10">
-            <Linkedin className="h-4 w-4" />
             <span>LinkedIn</span>
           </Link>
-
         </div>
       </div>
     </main>
